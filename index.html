@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- задания №1 -->
+    <ul id="categories">
+      <li class="item">
+        <h2 class="article-text">Животные</h2>
+
+        <ul class="ul">
+          <li>Кот</li>
+          <li>Хомяк</li>
+          <li>Лошадь</li>
+          <li>Попугай</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2 class="article-text">Продукты</h2>
+
+        <ul class="ul">
+          <li>Хлеб</li>
+          <li>Петрушка</li>
+          <li>Творог</li>
+        </ul>
+      </li>
+      <li class="item">
+        <h2 class="article-text">Технологии</h2>
+
+        <ul class="ul">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>React</li>
+          <li>Node</li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- задание №2 -->
+    <ul id="ingredients"></ul>
+    <!-- задание №3 -->
+    <ul id="gallery"></ul>
+    <!-- задание №4  -->
+    <div id="counter">
+      <button type="button" data-action="decrement">-1</button>
+      <span id="value">0</span>
+      <button type="button" data-action="increment">+1</button>
+    </div>
+    <!-- задание №5 -->
+    <input type="text" placeholder="Ваше имя?" id="name-input" />
+    <h1>Привет, <span id="name-output">незнакомец</span>!</h1>
+    <!-- задание №6 -->
+    <input
+      type="text"
+      id="validation-input"
+      data-length="6"
+      placeholder="Введи 6 символов"
+    />
+    <!-- задание №7 -->
+    <input id="font-size-control" type="range" />
+    <br />
+    <span id="text">Абракадабра!</span>
+    <!-- задание №8 -->
+    <div id="controls">
+      <input type="number" min="0" max="100" step="1" />
+      <button type="button" data-action="render">Создать</button>
+      <button type="button" data-action="destroy">Очистить</button>
+    </div>
+
+    <div id="boxes"></div>
+    <script src="./js/task-1.js"></script>
+    <script src="./js/task-2.js"></script>
+    <script src="./js/task-3.js"></script>
+    <script src="./js/task-4.js"></script>
+    <script src="./js/task-5.js"></script>
+    <script src="./js/task-6.js"></script>
+    <script src="./js/task-7.js"></script>
+    <script src="./js/task-8.js"></script>
+  </body>
+</html>
